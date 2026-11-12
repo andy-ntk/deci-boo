@@ -25,6 +25,12 @@
 - `6731362121` Sukrit Kankrasang
 - `6731365021` Aut Suttitanamongkol
 
+## Firmware Structure
+
+- **STM32CubeIDE (`NUCLEO-F411RE`):** [`firmware/stm32/test_ky`](firmware/stm32/test_ky)
+- **ESP32-S3 (`Arduino IDE`):** [`firmware/esp32/deci_boo_bridge/deci_boo_bridge.ino`](firmware/esp32/deci_boo_bridge/deci_boo_bridge.ino)
+  - Copy `firmware/esp32/deci_boo_bridge/secrets.example.h` → `secrets.h` and fill in your 2.4 GHz Wi-Fi credentials before uploading.
+
 ## Docs
 
 - [Week 1 Progress & Hardware Verification](docs/progress_update_2026-11-12.md)

@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+._*
+
+# Large course reference files (keep repo lightweight)
+Sensor & Actuator List (Public).xlsx
+example.pdf
+
+# STM32CubeIDE / Eclipse build artifacts
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.list
+*.map
+*.o
+*.d
+*.su
+*.cyclo
+.metadata/
+.settings/
+
+# Arduino IDE build artifacts & local secrets
+build/
+**/secrets.h
+**/wifi_config.h
